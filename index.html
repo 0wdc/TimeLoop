@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" type="image/svg+xml" href="img/logo.png">
+  <link rel="icon" type="image/png" href="img/favicon.ico">
+  
+  <title>TimeLoop</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" type="module"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="todo">
+      <h2 class="todo__title">Tasks</h2>
+      <ol class="todo__list">
+        <li class="todo__item">
+          <div class="todo__item-wrapper">
+            <button class="todo__btn">Write something</button>
+            <button class="todo__edit" aria-label="Редактировать"></button>
+            <button class="todo__del" aria-label="Удалить"></button>
+          </div>
+        </li>
+        <li class="todo__item">
+          <button class="todo__add">Add new  task</button>
+        </li>
+      </ol>
+    </div>
+
+    <div class="timer">
+      <div class="header">
+        <h1 class="header__title">TimeLoop</h1>
+
+        <img src="img/logo.png" alt="Logo" width="40px">
+      </div>
+
+      <div class="navigation">
+        <button class="navigation__btn navigation__btn_active" data-use="work">Working</button>
+        <button class="navigation__btn" data-use="break">Break</button>
+        <button class="navigation__btn" data-use="relax">Relax</button>
+      </div>
+
+      <p class="time"><span class="time__minutes">14</span>:<span class="time__seconds">18</span></p>
+
+
+      <p class="title">Write JS Script</p>
+      <div class="control">
+        <button class="control__btn control__btn_start">Start</button>
+        <button class="control__btn control__btn_stop">Stop</button>
+      </div>
+    </div>
+
+    <div class="count">
+      <p class="count_num">3</p>
+      <p class="count_text">Tasks quantity</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
