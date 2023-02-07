@@ -1,5 +1,5 @@
 # TimeLoop
-TimeLoop - it's a tint thing for your time-management.
+TimeLoop - it's a tiny thing for your time-management.
 
 What TimeLoop can:
 1. Create/Edit/Delete a task;
